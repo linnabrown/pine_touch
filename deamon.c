@@ -36,7 +36,7 @@ int main(int argc, char* argv[]){
         exit(1);
     }
     //change the current working directory to test_folder
-    chdir("/pine/scr/l/e/lehuang/");
+    //chdir("/pine/scr/l/e/lehuang/");
     //Close stdin. stdout and stderr
     close(STDIN_FILENO);
     close(STDOUT_FILENO);
