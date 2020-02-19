@@ -10,5 +10,5 @@ gcc -Wall deamon.c -o deamon
 
 revise this line into your own onyen
 ```
-system("find /pine/scr/l/e/lehuang/ -exec touch {} \\;");
+system("find /pine/scr/l/e/onyen/ -exec touch {} \\;");
 ```
