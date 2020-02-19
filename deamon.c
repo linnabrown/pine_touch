@@ -36,7 +36,7 @@ int main(int argc, char* argv[]){
         exit(1);
     }
     //change the current working directory to test_folder
-    //chdir("/pine/scr/l/e/lehuang/");
+    //chdir("/pine/scr/l/e/onyen_id/");
     //Close stdin. stdout and stderr
     close(STDIN_FILENO);
     close(STDOUT_FILENO);
@@ -49,7 +49,7 @@ int main(int argc, char* argv[]){
         // fprintf(fp,"Logging info .. \n");
         // fflush(fp);
         //implement and call some function that does work for this daemon.
-        system("find /pine/scr/l/e/lehuang/ -exec touch {} \\;");
+        system("find /pine/scr/l/e/onyen_id/ -exec touch {} \\;");
     }
     // fclose(fp);
     return(0);
