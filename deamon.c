@@ -1,13 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-// #include <signal.h>
-// #include <sys/param.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include<string.h>
-
-// #include <time.h>
 
 int main(int argc, char* argv[]){
     // FILE *fp = NULL;
@@ -42,7 +38,6 @@ int main(int argc, char* argv[]){
     close(STDOUT_FILENO);
     close(STDERR_FILENO);
     //open a log file in write mode
-    // fp = fopen("log.txt", "w+");
     while(1)
     {
         sleep(1440); // 1 day
