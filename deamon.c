@@ -40,11 +40,11 @@ int main(int argc, char* argv[]){
     //open a log file in write mode
     while(1)
     {
-        sleep(1440); // 1 day
+        sleep(14400); // 10 day
         // fprintf(fp,"Logging info .. \n");
         // fflush(fp);
         //implement and call some function that does work for this daemon.
-        system("find /pine/scr/<first_character>/<first_character>/<onyen_id>/ -exec touch {} \\;");
+        system("find /pine/scr/<first_character>/<first_character>/<onyen_id>/ -exec touch {} +");
     }
     // fclose(fp);
     return(0);
