@@ -44,7 +44,7 @@ int main(int argc, char* argv[]){
         // fprintf(fp,"Logging info .. \n");
         // fflush(fp);
         //implement and call some function that does work for this daemon.
-        system("find /pine/scr/<first_character>/<first_character>/<onyen_id>/ -exec touch {} +");
+        system("find /pine/scr/<first_character>/<second_character>/<onyen_id>/ -exec touch {} +");
     }
     // fclose(fp);
     return(0);
