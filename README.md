@@ -11,5 +11,5 @@ gcc -Wall deamon.c -o deamon
 
 revise this line into your own onyen
 ```
-system("find /pine/scr/<first_character>/<first_character>/<onyen_id>/ -exec touch {} \\;");
+system("find /pine/scr/<first_character>/<second_character>/<onyen_id>/ -exec touch {} \\;");
 ```
